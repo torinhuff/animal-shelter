@@ -48,7 +48,8 @@ ul {
 }
 
 img {
-  width: 40%;
+  max-width: 80%;
+  height: auto;
   border: 12px solid;
   border-color: #454b91;
 }
@@ -63,6 +64,7 @@ img {
   }
   .polar{
     width: 100%;
+    image-orientation:
   }
   .panda {
     width: 100%;
@@ -77,7 +79,8 @@ img {
     width: 100%;
   }
   img {
-    width: 50%;
+    max-width: 80%;
+    height: auto;
     border: none;
   }
   a {
@@ -126,7 +129,7 @@ img {
     width: 50%;
   }
   img {
-    width: 50%;
+    width: 80%;
     border: 6px solid;
     color: #d1652b;
   }
