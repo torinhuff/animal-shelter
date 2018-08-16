@@ -1,0 +1,124 @@
+h1{
+  text-align: center;
+}
+
+.intro {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+ul {
+  margin: auto;
+  width: 50%;
+}
+
+.polar {
+  width: 50%;
+  float: left;
+  font-family: Georgia, serif;
+  color: #4286f4;
+}
+
+.panda {
+  float: right;
+  width: 50%;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: black;
+}
+
+.largest {
+  float: left;
+  width: 50%;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+  color: #3c4656;
+}
+
+.cave {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  float: right;
+  width: 50%;
+  color: #3c4656;
+}
+
+.short {
+  font-family: Verdana, Geneva, sans-serif;
+  float: left;
+  width:50%;
+  color: #5b4a34;
+}
+
+img {
+  width: 40%;
+  border: 12px solid;
+  border-color: #454b91;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    text-align: center;
+  }
+  ul{
+    margin: auto;
+    width: 50%;
+  }
+  .polar{
+    width: 100%;
+  }
+  .panda {
+    width: 100%;
+  }
+  .largest {
+    width: 100%;
+  }
+  .cave {
+    width: 100%;
+  }
+  .short {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+    border: none;
+  }
+  a {
+    font-size: 36px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #3e46a3;
+  }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+  body {
+    text-align: center;
+  }
+  ul{
+    margin: auto;
+    width: 50%;
+  }
+  .polar{
+    width: 50%;
+  }
+  .panda {
+    width: 50%;
+  }
+  .largest {
+    width: 50%;
+  }
+  .cave {
+    width: 50%;
+  }
+  .short {
+    width: 50%;
+  }
+  img {
+    width: 50%;
+    border: 6px solid;
+    color: #d1652b;
+  }
+  a {
+    font-size: 36px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #3e46a3;
+  }
+}
